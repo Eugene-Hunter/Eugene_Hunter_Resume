@@ -33,9 +33,9 @@
 		
 		aside{
 			width: 95%;
+			float: right;
 			grid-column: 11/13;
 			grid-row: 1	 ;
-			/* background: lightgrey; */
 			background: linear-gradient(to bottom, aliceblue, lightgrey);
 			padding: 5px;
 			border-top-right-radius: 13px;
@@ -117,16 +117,9 @@
 		}
 			#highSchoolDiv:hover, #aPlusDiv:hover, #unisaDiv:hover, #hyperionDevDiv:hover {
 			background: aliceblue;
-			
-			
 		}	
-		#iFrameDiv{
-			position: center; 
-			width:58%; 
-			height: 25%;
-		}
-		/*#selfEmployedDiv, #hunterspcsDiv, #mbpcDiv {
-			border: solid gold 20px;
+
+		#selfEmployedDiv, #hunterspcsDiv, #mbpcDiv, #sarsPermDiv, #sarsTempDiv {
 			border-top-right-radius: 13px;
 			border-bottom-right-radius: 13px;
 			border-top-left-radius: 13px;
@@ -136,7 +129,7 @@
 			padding-bottom: 5px;
 			margin-bottom: 10px;
 			}
-			*/		
+					
 		
 		.workExperience {
 			clear: left;

@@ -155,7 +155,7 @@
 			border-radius: 50%;
 			height: 15px;
 			width: 15px;
-			background-image: linear-gradient(grey, black);
+			background-image: linear-gradient(lightblue, black);
 		}
 	
 		input[type=range]::-webkit-slider-runnable-track{

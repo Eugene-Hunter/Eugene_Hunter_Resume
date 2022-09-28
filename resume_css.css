@@ -11,12 +11,11 @@
 			background: linear-gradient(to right, aliceblue, lightgrey); 
 			
 			}
-		.containerDiv{
+		.containerDiv {
 			display: grid;
 			
 		}
-
-		section{
+		section {
 			width: 95%;
 			grid-column: 1/10;
 			grid-row: 1;
@@ -29,8 +28,6 @@
 			border-bottom-left-radius: 13px;
 			box-shadow: black 10px 10px 20px;
 		}
-		
-		
 		aside{
 			width: 95%;
 			float: right;
@@ -45,7 +42,7 @@
 			margin-left: 10px;
 			box-shadow: black 10px 10px 20px
 		}
-		footer{
+		footer {
 			grid-column: 1/13;
 			grid-row: 3;
 			background-color: aliceblue;
@@ -63,8 +60,6 @@
 			padding-left: 20%;
 			padding-right: 20%;
 		}
-		
-		
 		div{
 			background-color: rgba(100,255,255, 0);
 			font-background: rgba(0,255,255, 0);
@@ -80,7 +75,6 @@
 			font-family: Arial, Helvetica;
 			color: white;
 			background-color: rgba(91,114,136,0.5);
-			text-background: rgba(0,255,255, 0);
 			text-shadow: black 1px 1px 1px;
 			box-shadow: black 5px 5px 5px;
 			border-top-right-radius: 13px;
@@ -115,7 +109,7 @@
 			border-bottom-left-radius: 10%;
 			box-shadow: black 10px 10px 20px;
 		}
-			#highSchoolDiv:hover, #aPlusDiv:hover, #unisaDiv:hover, #hyperionDevDiv:hover {
+		#highSchoolDiv:hover, #aPlusDiv:hover, #unisaDiv:hover, #hyperionDevDiv:hover {
 			background: aliceblue;
 		}	
 
@@ -129,16 +123,25 @@
 			padding-bottom: 5px;
 			margin-bottom: 10px;
 			}
-					
-		
 		.workExperience {
 			clear: left;
 		}
 		.education {
 			height: 330px;
 		}
-		.slider {
-			foreground-color: red;
+		.odd{
+			color: black;
+			background-color: aliceblue;
+			text-shadow: black 0 0 0px;
+		}
+		.even{
+			color: white;
+			background-color: rgb(91,114,136);
+			text-shadow: black 0 0 1px;
+		}
+		td {
+		position: center; 
+		border: solid black 1px;
 		}
 		input[type=range]:: -webkit-slider-runnable-track, input[type=range]:: -moz-range-track,
 		input[type=range]:: -ms-track,

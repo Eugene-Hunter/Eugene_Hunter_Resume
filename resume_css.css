@@ -4,7 +4,9 @@
     input[type=range]::-ms-track
     input[type=range]::-moz-range-thumb
     input[type=range]::-ms-thumb	
-    wrapper{
+    header{
+            grid-column: 1/13;
+            grid-row: 1;
             text-align: center;
     }
     body{
@@ -18,23 +20,30 @@
 
     }
     section {
-   
+            width: 95%;
             grid-column: 1/10;
-            grid-row: 5;
+            grid-row: 1;
             padding: 10px;
             background: linear-gradient(to bottom, aliceblue, lightgrey); 
-            margin-right: 5px;
-            border-radius: 23px;
+            margin-right: 10px;
+            border-top-right-radius: 13px;
+            border-bottom-right-radius: 13px;
+            border-top-left-radius: 13px;
+            border-bottom-left-radius: 13px;
             box-shadow: black 10px 10px 20px;
     }
     aside{
-
+            width: 95%;
+            float: right;
             grid-column: 11/13;
-            grid-row: 5	 ;
+            grid-row: 1	 ;
             background: linear-gradient(to bottom, aliceblue, lightgrey);
             padding: 5px;
-            border-radius: 23px;
-            margin-left: 5px;
+            border-top-right-radius: 13px;
+            border-bottom-right-radius: 13px;
+            border-top-left-radius: 13px;
+            border-bottom-left-radius: 13px;
+            margin-left: 10px;
             box-shadow: black 10px 10px 20px
     }
     footer {
@@ -72,13 +81,17 @@
             background-color: rgba(91,114,136,0.5);
             text-shadow: black 1px 1px 1px;
             box-shadow: black 5px 5px 5px;
-            border-radius: 53px;
+            border-top-right-radius: 13px;
+            border-bottom-right-radius: 13px;
+            border-top-left-radius: 13px;
+            border-bottom-left-radius: 13px;
             padding: 8px;
             margin: 10px;
-            margin-left: 10px;
 
     }
     h3{ 
+            grid-column: 1/9;
+            grid-row: 2;
             text-align: center;
     }
     li {

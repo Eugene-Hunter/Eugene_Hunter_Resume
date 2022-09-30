@@ -21,7 +21,7 @@
     }
     section {
             width: 95%;
-            grid-column: 1/10;
+            grid-column: 1/11;
             grid-row: 1;
             padding: 10px;
             background: linear-gradient(to bottom, aliceblue, lightgrey); 
@@ -35,7 +35,7 @@
     aside{
             width: 95%;
             float: right;
-            grid-column: 11/13;
+            grid-column: 12/13;
             grid-row: 1	 ;
             background: linear-gradient(to bottom, aliceblue, lightgrey);
             padding: 5px;

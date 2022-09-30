@@ -135,13 +135,17 @@
     }
     .odd{
             color: black;
-            background-color: aliceblue;
+            background-color: rgba(240,248,255, 0.6);
             text-shadow: black 0 0 0px;
     }
     .even{
             color: white;
-            background-color: rgb(91,114,136);
-            text-shadow: black 0 0 1px;
+            background-color: rgba(91,114,136, 0.6);
+            text-shadow: black 0 0 2px;
+    }
+    table {
+        background-image: linear-gradient(to right, rgba(91,114,136, 0.3), rgba(0, 0, 0, 0.6));
+        width: 100%;
     }
     td {
             position: center; 

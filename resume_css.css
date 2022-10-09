@@ -46,6 +46,11 @@
             margin-left: 10px;
             box-shadow: black 10px 10px 20px
     }
+    
+    #imgMe {
+    
+    }
+    
     footer {
             grid-column: 1/13;
             grid-row: 3;
@@ -65,6 +70,7 @@
             padding-right: 20%;
     }
     div{
+    		height: auto;
             background-color: rgba(100,255,255, 0);
             font-background: rgba(0,255,255, 0);
             /* border: solid blue 1px; */
@@ -100,11 +106,12 @@
             font-size: 16px;
     }
 
-    #highSchoolDiv, #aPlusDiv, #unisaDiv, #hyperionDevDiv {
-            width: 21%;
+   #aPlusDiv, #unisaDiv, #hyperionDevDiv {
+            width: 29%;
             padding: 1%;
             margin: 1%;
             float: left;
+            clear: right:
             align: left;
             background: linear-gradient(to right, aliceblue, lightgrey); 
             border-top-right-radius: 10%;
@@ -142,6 +149,9 @@
             color: white;
             background-color: rgba(91,114,136, 0.6);
             text-shadow: black 0 0 2px;
+    }
+    .schoolClass {
+    		color: rgba(148, 182, 210, 1);
     }
     table {
         background-image: linear-gradient(to right, rgba(91,114,136, 0.3), rgba(0, 0, 0, 0.6));

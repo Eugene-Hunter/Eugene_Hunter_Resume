@@ -24,7 +24,7 @@
             grid-column: 1/11;
             grid-row: 1;
             padding: 10px;
-            background: linear-gradient(to bottom, aliceblue, lightgrey); 
+            background: linear-gradient(to bottom, rgb(148, 182, 210), aliceblue);
             margin-right: 10px;
             border-top-right-radius: 13px;
             border-bottom-right-radius: 13px;
@@ -37,7 +37,8 @@
             float: right;
             grid-column: 12/13;
             grid-row: 1	 ;
-            background: linear-gradient(to bottom, aliceblue, lightgrey);
+            background: linear-gradient(to bottom, rgb(148, 182, 210), aliceblue);
+            
             padding: 5px;
             border-top-right-radius: 13px;
             border-bottom-right-radius: 13px;
@@ -113,7 +114,7 @@
             float: left;
             clear: right:
             align: left;
-            background: linear-gradient(to right, aliceblue, lightgrey); 
+            background: linear-gradient(to top, rgb(148, 182, 210), aliceblue);
             border-top-right-radius: 10%;
             border-bottom-right-radius: 10%;
             border-top-left-radius: 10%;

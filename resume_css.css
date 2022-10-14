@@ -24,7 +24,7 @@
             grid-column: 1/10;
             grid-row: 1;
             padding: 10px;
-            background: linear-gradient(to bottom, rgb(148, 182, 210), aliceblue);
+            background: linear-gradient(to bottom, rgb(200, 210, 240), aliceblue);
             margin-right: 10px;
             border-top-right-radius: 13px;
             border-bottom-right-radius: 13px;
@@ -36,7 +36,7 @@
             grid-column: 10/13;
             grid-row: 1	 ;
             float: left;
-            background: linear-gradient(to bottom, rgb(148, 182, 210), aliceblue);
+            background: linear-gradient(to bottom,  rgb(200, 210, 240), aliceblue);
             padding: 5px;
             border-top-right-radius: 13px;
             border-bottom-right-radius: 13px;
